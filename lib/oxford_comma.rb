@@ -16,6 +16,4 @@ def oxford_comma(array)
     my_array.push("and #{array[-1]}")
     return my_array.join(", ")
   end
-
-
 end
