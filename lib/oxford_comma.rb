@@ -7,8 +7,7 @@ def oxford_comma(array)
   elsif array.size == 2
     my_array = my_array.push(array[0])
     my_array.push("and #{array[-1]}")
-    return my_array.join(", ")
-  else
+    return my_array.join
     while counter < array.size-1
     my_array.push(array[counter])
     counter += 1
