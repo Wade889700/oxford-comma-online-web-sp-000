@@ -2,7 +2,8 @@ def oxford_comma(array)
   counter = 0
   my_array=[]
   if array.size ==1
-    return (array[0].to_a).join
+    my_array.push(array[0])
+    return my_array.join
   else
     while counter < array.size-1
     my_array.push(array[counter])
